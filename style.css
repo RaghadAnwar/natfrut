@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: linear-gradient(to left,rgba(255, 166, 0, 0.459),rgba(255, 251, 0, 0.26));
+    height:60px;
+   border-top: solid darkred;
+position: fixed;
+width: 100%;
+}
+header h2{
+    font-size: 40px;
+    color: darkred;
+    font-family: fantasy;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+header a{
+    text-decoration: none;
+    color: darkred;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-family: fantasy;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  transition: 0.5s ease;
+}
+header a:hover{
+    color:black;
+    font-size: 25px;
+}
+.carsour{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuiEprY4y60ugdSC8vgBB3BmHz-bLMVATiPNjAnnDSg&s);
+  background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    color: darkred;
+}
+.carsour div{
+    margin-left: 80px;
+}
+.carsour h2{
+  
+    font-size: 30px;
+    font-family:fantasy;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.carsour span{
+    font-size: 150px;
+    color: orange;
+}
+.carsour button{
+ color: darkred;
+    background-color: orange;
+    font-size: 50px;
+    font-family: fantasy;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: orange;}
+    .s1{
+        background-color:bisque ;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .header h1{
+        font-size: 30px;
+        font-family: cursive;
+        font-weight: bold;
+        color: orange;
+       
+    }
+    .header button{
+        font-size: 30px;
+        font-family: cursive;
+        font-weight: bold;
+        border-radius: 10px;
+        background-color:orange;
+        color: darkred;
+       border-color: orange;
+     
+    }
+    .body{
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .item1{
+        
+        width: 19%;
+        background-color: rgba(255, 166, 0, 0.404);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .item2{
+       border-radius: 10px;
+        width: 19%; 
+        background-color: rgba(255, 166, 0, 0.404);
+    } 
+    .item3{
+        border-radius: 10px;
+        width: 19%;
+        background-color: rgba(255, 166, 0, 0.404);
+    }
+    .item4{
+        border-radius: 10px;
+        width: 19%;
+        background-color: rgba(255, 166, 0, 0.404);   
+    }
+    .item5{
+      border-radius: 10px;
+        width: 19%;
+        background-color: rgba(255, 166, 0, 0.404);  
+    }
+    .body img{
+        width: 80%;
+  margin-left: 30px;
+        margin-top: 20px;
+    }
+   .body h3{
+text-align: center;
+margin-top: 15px;
+font-family: cursive;
+font-weight: bold;
+font-size: 20px;
+   }
+   .body h4{
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    font-family: cursive;
+   }
+   .s2{
+    background-color: bisque;
+   }
+   .header1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.header1 h1{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    color: orange;
+   
+}
+.header1 button{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:orange;
+    color: darkred;
+   border-color: orange;
+ 
+} 
+.body1{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,auto));
+   width: 80%;
+    margin-left: 10%;
+}
+.body1 div{
+    width: 70%;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 1px 2px 11px 4px rgb(14, 55, 45 /15%);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.body1 img{
+    width: 50%;
+margin-left: 25%;
+ margin-top: 30px;
+}
+.itm1{
+        
+    width: 19%;
+    background-color: rgba(255, 166, 0, 0.404);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.itm2{
+        
+    width: 19%;
+    background-color: rgba(255, 166, 0, 0.404);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.itm3{
+        
+    width: 19%;
+    background-color: rgba(255, 166, 0, 0.404);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.itm4{
+        
+    width: 19%;
+    background-color: rgba(255, 166, 0, 0.404);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.itm5{
+        
+    width: 19%;
+    background-color: rgba(255, 166, 0, 0.404);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.itm6{
+        
+    width: 19%;
+    background-color: rgba(255, 166, 0, 0.404);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.body1 h4{
+  
+    text-align: center;
+margin-top: 15px;
+font-family: cursive;
+font-weight: bold;
+font-size: 40px;
+}
+.body1 h2{
+    text-align: center;
+margin-top: 15px;
+font-family: cursive;
+font-weight: bold;
+font-size: 30px;
+}
+.body1 h3{
+    text-align: center;
+margin-top: 15px;
+font-family: cursive;
+font-weight: bold;
+font-size: 20px;
+}
+.body1 h3 span{
+    color: orange;
+}
+.offer{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    padding: 4px 10px;
+    width: 60
+    px;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    clip-path: polygon(100% 0%, 82% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+.about{
+    display: flex;
+    margin-top: 300px;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+   
+}
+.imge{
+    width: 50%;
+}
+.imge img{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-user-drag: none;
+}
+.contant{
+    width: 47%;
+}
+.contant h1{
+    color: orange;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.contant h2{
+    color: darkred;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.s4{
+    background-color: bisque;
+}
+.cont1{
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: darkred;
+    background-color: orange;
+}
+.fa-brands{
+    text-align: center;
+    width: 50px;
+    padding: 10px 0px;
+    margin: 5px;
+
+}
+.rights{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: darkred;
+    color:orange;
+}
